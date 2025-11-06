@@ -1,0 +1,59 @@
+# --- WordPress core, uploads, cache ---
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/ai1wm-backups/
+/wp-content/backups-*
+
+# Allow only custom themes/plugins
+!/wp-content/themes/
+!/wp-content/plugins/
+# --- UCON custom rules ---
+/ucon/wp-admin/
+/ucon/wp-includes/
+/ucon/wp-content/uploads/
+/ucon/wp-content/cache/
+/ucon/wp-content/upgrade/
+/ucon/wp-content/debug.log
+/ucon/wp-config.php
+!/ucon/wp-content/themes/
+!/ucon/wp-content/plugins/
+/ucon/wp-content/themes/*
+!/ucon/wp-content/themes/astra-child/
+/ucon/wp-content/plugins/*
+!/ucon/wp-content/plugins/ucon-*/
+
+# Ignore all themes except our child
+/wp-content/themes/*
+!/wp-content/themes/astra-child/
+
+# Ignore all plugins except our custom ones (prefix ucon-)
+#/wp-content/plugins/*
+#!/wp-content/plugins/ucon-*/
+
+# If you want to track specific custom plugins, uncomment above and whitelist them:
+# !/wp-content/plugins/ucon-core/
+# !/wp-content/plugins/ucon-admin/
+
+# --- Credentials & local ---
+wp-config.php
+.env
+*.local
+*.log
+*.sql
+*.sqlite
+.DS_Store
+Thumbs.db
+
+# --- Node/tooling (if used) ---
+node_modules/
+dist/
+build/
+*.map
+
+# --- VS Code ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json

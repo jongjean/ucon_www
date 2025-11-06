@@ -1,0 +1,4 @@
+/* Editor styles so Gutenberg/Elementor roughly match front-end */
+:root{--ucon-bg:#0b0b0b;--ucon-text:#ffffff;--ucon-purple:#9b59b6;--ucon-pink:#e84393}
+.editor-styles-wrapper{background:var(--ucon-bg);color:var(--ucon-text)}
+.editor-styles-wrapper .ucon-btn{background:var(--ucon-pink);color:#fff;border-radius:12px;padding:.6rem 1rem}
