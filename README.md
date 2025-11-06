@@ -109,14 +109,14 @@ git push -u origin main
 - 배포 스크립트/가이드: `infrastructure/`에 정리
 
 ## ✅ 운영 체크리스트
-- [ ] Astra 테마 + Child 테마 정상 작동
-- [ ] Starter Templates(Tech/Agency) 적용
-- [ ] Neom City 색상 (#0b0b0b, #9b59b6, #e84393) 적용
-- [ ] Elementor / AI Engine 플러그인 설치 및 테스트
-- [ ] `.gitignore` 정상 작동 (uploads/ 미추적)
-- [ ] wp-config.php, API Key, 비밀번호 커밋 금지
-- [ ] DDNS 접속 (uconcreative.ddns.net/ucon) 정상 표시
-- [ ] SSL(선택) 적용 및 관리자 로그인 테스트
+- ✅ Astra 테마 + Child 테마 정상 작동
+- ✅ Starter Templates(예: Tech Agency) 적용 완료
+- ✅ Neom City 색상 (#0b0b0b, #9b59b6, #e84393) 적용
+- ✅ Elementor / AI Engine 플러그인 설치 및 테스트
+- ✅ .gitignore 정상 작동 (uploads/ 미추적)
+- ✅ wp-config.php, API Key, 비밀번호 커밋 금지
+- ✅ DDNS 접속 (uconcreative.ddns.net/ucon) 정상 표시
+- ✅ SSL(선택) 적용 및 관리자 로그인 테스트
 
 © 2025 UCONCREATIVE Inc. All rights reserved.
 # ucon_www

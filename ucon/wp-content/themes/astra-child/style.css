@@ -1,19 +1,17 @@
 /*
- Theme Name: Astra Child (UCON Creative)
- Theme URI: https://uconcreative.ddns.net
- Description: UCONCREATIVE Neom City style child theme for Astra.
- Author: UCONCREATIVE
- Template: astra
- Version: 0.1.0
- Text Domain: astra-child
+Theme Name: Astra Child (UCON Creative)
+Template: astra
 */
-:root{
-  --ucon-bg:#0b0b0b;
-  --ucon-text:#ffffff;
-  --ucon-purple:#9b59b6;
-  --ucon-pink:#e84393;
+:root {
+  --ucon-purple: #9b59b6;
+  --ucon-pink: #e84393;
 }
-body{background:var(--ucon-bg);color:var(--ucon-text);}
-a{color:var(--ucon-pink);text-decoration:none}
-a:hover{text-decoration:underline}
-/* Keep style.css minimal; put bulk styles in assets/css/ucon.css */
+
+body {
+  background: #0b0b0b;
+  color: #fff;
+}
+
+a {
+  color: var(--ucon-pink);
+}

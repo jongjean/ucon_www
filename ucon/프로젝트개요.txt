@@ -1,0 +1,117 @@
+─────────────────────────────────────────────
+UCONCREATIVE WEBSITE PROJECT OVERVIEW
+─────────────────────────────────────────────
+
+📌 프로젝트명: ucon_www
+📁 로컬 경로: C:\laragon\www\ucon_www\ucon
+🌐 서비스 도메인: http://uconcreative.ddns.net
+🔧 개발환경: Laragon (Apache + MySQL + PHP 8.x)
+🧠 IDE: Visual Studio Code
+☁️ Git Repository: github.com/jongjean/ucon_www
+📦 CMS: WordPress (Astra 테마 + Astra Child)
+📅 최근 업데이트: 2025-11-07
+
+─────────────────────────────────────────────
+1. 프로젝트 개요
+─────────────────────────────────────────────
+UCONCREATIVE 주식회사의 공식 웹사이트 개발 프로젝트로,
+AI 서비스 브랜드 **UCONAI** 를 중심으로 한 기업 홍보 및 기술 소개를 목표로 함.
+
+본 프로젝트는 로컬 개발 환경(Laragon)과 GitHub을 완전 연동하여,
+로컬에서 개발 → GitHub으로 버전 관리 → DDNS 기반 서버로 실시간 반영되는
+**통합 웹개발 파이프라인**을 구축함.
+
+─────────────────────────────────────────────
+2. 주요 기술 스택
+─────────────────────────────────────────────
+- WordPress 6.x
+- PHP 8.x
+- MySQL 8.x
+- Apache (Laragon 기본 환경)
+- Git + GitHub (버전 관리)
+- Visual Studio Code (코드 작성 및 테마 개발)
+- Astra 테마 + Astra Child 테마 커스터마이징
+- DDNS (uconcreative.ddns.net) 기반 외부 공개
+
+─────────────────────────────────────────────
+3. 주요 디렉토리 구조
+─────────────────────────────────────────────
+C:\laragon\www\ucon_www\
+│
+├─ .vscode\              ← VS Code 설정
+├─ infrastructure\       ← 배포/서버 스크립트 및 설정
+├─ ucon\                 ← WordPress 설치 경로
+│   ├─ wp-admin\
+│   ├─ wp-content\
+│   │   ├─ themes\
+│   │   │   ├─ astra\
+│   │   │   └─ astra-child\   ← 개발 커스터마이징 테마
+│   ├─ wp-includes\
+│   ├─ index.php
+│   └─ wp-config.php
+│
+├─ .editorconfig
+├─ .gitignore
+└─ README.md
+
+─────────────────────────────────────────────
+4. 서비스 구성
+─────────────────────────────────────────────
+✅ 회사 소개
+   - UCONCREATIVE 기업 소개, 연혁, 비전, ESG 철학
+✅ 제품 소개
+   1) AI 랜툴박스 : 공구 생애주기 관리 솔루션
+   2) 공구반장 : 스마트폰 기반 공구 관리 앱
+   3) AI 서포터 시리즈 : AI-ESG코디, AI도슨트, AI공장장 등
+✅ 기술 소개
+   - AI 기반 자동화 시스템, 인공지능 엔진 개발 사례
+✅ 주요 뉴스
+   - 언론 보도, 프로젝트 수행 소식 (SNS 연동 포맷)
+✅ ESG 활동
+   - 사회공헌, 지속가능경영 실천 사례
+
+─────────────────────────────────────────────
+5. 주요 기술 포인트
+─────────────────────────────────────────────
+- GitHub 자동 버전 관리
+  → VS Code에서 커밋 시 GitHub와 즉시 동기화
+- DDNS 기반 원격 접속
+  → uconcreative.ddns.net으로 외부 접근 가능
+- Child Theme 구조
+  → astra-child/functions.php 를 통해 기능 확장
+- 커스텀 숏코드
+  → [ucon_news_cards], [ucon_products] 등 내부 컴포넌트화
+- AI + UI 통합 기반 구조
+  → 추후 AI 기반 콘텐츠 생성 플러그인 연계 예정
+
+─────────────────────────────────────────────
+6. 설정 요약
+─────────────────────────────────────────────
+Database Name: wordpress  
+Database User: ucon  
+Database Host: localhost  
+Table Prefix: uc_  
+Document Root: C:\laragon\www\ucon_www\ucon  
+WordPress URL: http://uconcreative.ddns.net  
+
+─────────────────────────────────────────────
+7. 유지보수 지침
+─────────────────────────────────────────────
+1) VS Code에서 모든 테마 및 플러그인 수정
+2) GitHub로 Push (자동 백업)
+3) 브라우저에서 DDNS로 테스트
+4) 주요 파일 변경 시 commit log 필수 기록
+
+─────────────────────────────────────────────
+8. 차후 확장 계획
+─────────────────────────────────────────────
+- AI 콘텐츠 자동생성 (OpenAI API 연동)
+- 관리자 대시보드 커스터마이징
+- UCONAI 제품군 통합 포털 기능 추가
+- HTTPS 적용 (Let’s Encrypt)
+- 다국어 지원 (영문, 일본어)
+
+─────────────────────────────────────────────
+© 2025 UCONCREATIVE Co., Ltd.
+Project Lead: Dr. Kang Jong-Jean (uconcreative)
+─────────────────────────────────────────────

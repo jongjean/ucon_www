@@ -1,0 +1,203 @@
+?? UCONCREATIVE 공식 홈페이지 제작 기획 요약
+1?? 사이트 개요
+
+사이트명: UCONCREATIVE Official Website
+
+도메인: http://uconcreative.ddns.net
+
+엔진: WordPress (Astra + Astra Child 테마 기반 커스터마이징)
+
+개발환경: VS Code + Laragon + GitHub 연동
+
+주요 기술: AI·ESG·IoT 연계 기술을 중심으로 한 기업형 랜딩 웹사이트
+
+2?? 브랜드 콘셉트 및 톤앤매너
+항목	방향성
+브랜드 이미지	AI + 창의성 중심의 미래지향형 기술기업
+디자인 톤	밝고 명랑하지만 전문적이고 미래적
+메인 키컬러	블루 (#2986CC) + 퍼플 (#7E57C2) + 화이트 (#FFFFFF)
+포인트 컬러	네온 핑크 (#E040FB) ? 버튼 및 인터랙션 포인트
+타이포그래피	Pretendard / Noto Sans KR / Montserrat 조합
+무드보드 키워드	? 기술, AI, 혁신, 스마트, 연결성, 신뢰, ESG, 창의성
+3?? 사이트 구조 및 주요 섹션
+? 메인 랜딩페이지 구성
+
+Hero Section (인트로)
+
+슬로건: “AI와 함께, 더 똑똑한 세상을 디자인하다.”
+
+배경: 블루-퍼플 그래디언트 + 움직이는 AI 패턴
+
+CTA 버튼: [서비스 소개] [문의하기]
+
+회사소개 (About UCONCREATIVE)
+
+연혁, 비전, 핵심가치
+
+인공지능 기반 혁신 사례 소개
+
+주요 제품 및 솔루션 (Products & Services)
+
+랜툴박스 (AI 공구관리)
+
+공구반장 (모바일 공구관리앱)
+
+AI-ESG코디 / AI도슨트 / AI공장장 시리즈
+→ 각 솔루션별 미니 랜딩 페이지 연결
+
+핵심 기술 (Core Technology)
+
+AI 분석, 데이터 자동화, IoT 연계, 메타버스 학습 기술 등
+
+인포그래픽 + 모션 SVG 활용
+
+뉴스 & 미디어 (News / SNS)
+
+블로그 포스트 카드형 구성
+
+회사 활동, 언론보도, 소셜 피드
+
+ESG & 사회공헌 (ESG Activities)
+
+환경, 사회, 거버넌스 관련 주요 실천사례
+
+슬라이드 카드 / SNS형 UI
+
+Contact / Footer
+
+주소, 문의메일, 전화번호, 저작권, SNS 아이콘
+
+“함께 혁신을 만들어가요.” 메시지 포함
+
+4?? 주요 인터랙션 컨셉
+구분	인터랙션 방식	설명
+Hero Section	스크롤 페이드인 + 패럴럭스 효과	AI 배경 그래픽과 함께 메시지 부드럽게 등장
+Product Cards	Hover 애니메이션 + 그림자 강조	사용자가 제품 영역에 마우스 올리면 glow 효과
+버튼 / CTA	색상 그라데이션 + 살짝 스케일업	사용자 클릭 유도 강화
+메뉴 전환	Fade + Slide 조합	부드러운 네비게이션 이동
+Scroll Progress Bar	상단 얇은 라인으로 진행률 표시	방문자 몰입감 강화
+5?? 페이지별 역할 요약
+페이지	주요 콘텐츠	기능 요소
+메인 랜딩	기업 소개 요약 + CTA	스크롤 인터랙션, 슬라이드
+회사소개	연혁, 비전, 조직문화	타임라인 UI
+제품소개	랜툴박스 / 공구반장 / AI 서포터	카드형 구조, CTA 버튼
+기술소개	AI, IoT, 데이터 구조	SVG + 애니메이션
+뉴스	미디어, 보도자료	카드형 목록 + 카테고리 필터
+ESG활동	사회공헌, 지속가능경영	SNS 스타일 카드 UI
+문의 / Contact	폼, 지도, SNS 링크	Contact Form 7 연동
+6?? 기능 및 기술 구조
+
+Child Theme: astra-child
+
+주요 커스터마이징 위치: functions.php, assets/css/, assets/js/
+
+주요 숏코드:
+
+[ucon_news_cards count="6"]
+
+[ucon_products]
+
+페이지 빌더: Elementor
+
+AI 연계 예정 기능:
+
+ChatGPT API 기반 콘텐츠 생성
+
+AI 도슨트형 인터랙션 (텍스트→음성 변환)
+
+AI 기반 ESG 리포트 자동 생성
+
+7?? 제작 및 운영 계획
+단계	작업 내용	완료 상태
+1	워드프레스 설치 / DB 연동	? 완료
+2	Astra + Child Theme 세팅	? 완료
+3	VS Code / GitHub 연동	? 완료
+4	기본 레이아웃 구축	?? 진행 예정
+5	컬러·폰트·UI 구성	?? 진행 예정
+6	인터랙션 개발 / AI 연동	?? 예정
+7	DDNS 운영 및 SSL 적용	?? 예정
+8?? 핵심 메시지
+
+“UCONCREATIVE는 인공지능을 통해
+기술, 산업, 일상 속 혁신을 창조하는 스마트 테크 기업입니다.”
+
+이 기획 요약은 다음 대화에서 사용할 컬러 시스템·인터랙션 시나리오·레이아웃 설계의 기준 문서입니다.
+다음 단계에서는 아래와 같은 항목을 세부화할 수 있습니다??
+
+?? 컬러 시스템 및 UI 키트 확정 (버튼, 폰트, 그리드 등)
+
+?? 랜딩 페이지 와이어프레임 (섹션별 구성 및 인터랙션 플로우)
+
+? 각 제품 페이지(랜툴박스 / 공구반장 / AI서포터) 세부 구성안
+
+
+**“신비감 + 메커니즘 + 미래적 사이버 감성”**은 Neom City 테마의 네온 퍼플 기반 다크 톤과 완벽하게 맞습니다.
+이를 UCONCREATIVE의 AI 기반 기업 이미지에 맞게 발전시킨
+“UCON Cyber-Neon Color Concept” 버전을 아래처럼 정리했습니다??
+
+?? UCONCREATIVE Cyber-Neon 컬러 콘셉트
+?? 1?? 전체 톤 & 분위기
+
+분위기 키워드:
+Futuristic, AI Mechanism, Mystery, Cyber City, Smart Tech
+
+톤앤매너:
+→ 어두운 베이스 + 강렬한 네온 대비
+→ 정밀함, 지능, 기술의 상징
+
+?? 2?? 메인 컬러 팔레트
+구분	컬러	HEX 코드	설명
+Primary (Main)	?? Neon Purple	#A020F0	AI와 기술의 핵심 컬러. 지능·창조의 상징
+Secondary	?? Cyber Blue	#00BFFF	미래도시, 메커니즘, 신뢰감 강조
+Accent 1	?? Deep Magenta	#C71585	감성적 에너지와 신비감 부여
+Accent 2	?? Electric Cyan	#00FFFF	네온 효과용. 인터랙션 강조
+Base Dark	? Graphite Black	#0A0A0A	전체 배경 컬러. 빛이 강조되게 만드는 베이스
+Neutral Light	? Mist White	#F4F4F4	텍스트 및 하이라이트용
+?? 3?? 인터랙션 & UI 컬러 가이드
+요소	상태	색상	효과
+버튼(기본)	Normal	#A020F0 (Neon Purple)	둥근 모서리 + glow 효과
+〃	Hover	#00BFFF → #A020F0 그라데이션	살짝 확대 + 발광
+링크/하이라이트	Hover	#C71585	글자 glow 또는 밑줄 fade-in
+메뉴 활성 탭	Active	#00FFFF	Border 하이라이트
+카드 hover	Focus	그림자 + 보더 컬러 #A020F0	입체감 강화
+로딩 애니메이션	Progress Bar	그라데이션 #A020F0 → #00FFFF	사이버 라인 느낌
+?? 4?? 배경 & 그래픽 구조
+
+배경 베이스: #0A0A0A
+→ 광택감 있는 AI 금속 패턴 또는 도시 네온 블러 효과
+
+Section 분리:
+→ 가벼운 linear-gradient(180deg, #0A0A0A, #1C0033)
+→ 컨텐츠 구분을 명확히 하되 톤을 유지
+
+UI 그래픽 효과:
+→ 글로우(glow), 블러(blur), 라인(line) 애니메이션 활용
+
+?? 5?? 타이포그래피
+구분	폰트	색상	특징
+메인 타이틀	Montserrat ExtraBold	#FFFFFF	직선적이고 기술적 인상
+부제목	Orbitron / Pretendard SemiBold	#A020F0	SF 느낌 강조
+본문	Noto Sans KR / Roboto	#DCDCDC	읽기 쉬운 고대비
+네비게이션 / 버튼 텍스트	Montserrat Bold	#F4F4F4	간결하고 세련된 느낌
+?? 6?? 비주얼 포인트 아이디어
+
+AI 신경망 라인 애니메이션 (SVG / WebGL)
+
+네온 도심 실루엣 (도시 야경, 회로처럼 연결된 형태)
+
+빛의 입자 / 데이터 플로우 효과
+
+사이버 HUD 인터페이스 UI 오버레이
+
+?? 7?? 추천 적용 예시
+영역	색상	효과
+헤더/푸터	#0A0A0A	고정 네비게이션, 블러 효과
+Hero Section	#A020F0 → #00BFFF 그라데이션	AI 도시 느낌의 모션 백그라운드
+CTA 버튼	#00FFFF 테두리 + 내부 #A020F0	호버시 광택 효과
+섹션 구분 라인	#C71585 얇은 글로우 라인	세련된 구획 나눔
+하이라이트 텍스트	#A020F0	키워드 강조
+?? 8?? 적용 후 느낌 요약
+
+“UCONCREATIVE는 네온빛 미래도시 속에서
+인공지능이 살아 숨 쉬는 듯한 감각적 인터페이스를 통해
+기술과 감성의 조화를 시각화한다.”
