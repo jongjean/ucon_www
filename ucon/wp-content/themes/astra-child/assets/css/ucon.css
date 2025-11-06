@@ -1,0 +1,28 @@
+/* UCON site styles (Neom City) */
+:root{
+  --ucon-bg:#0b0b0b;
+  --ucon-text:#ffffff;
+  --ucon-purple:#9b59b6;
+  --ucon-pink:#e84393;
+  --ucon-card:#111213;
+  --ucon-border:#202225;
+}
+.ucon-container{max-width:1200px;margin:0 auto;padding:24px}
+.ucon-grid{display:grid;gap:20px}
+@media(min-width:768px){.ucon-grid{grid-template-columns:repeat(12,1fr)}}
+
+.ucon-hero{background:linear-gradient(180deg, rgba(155,89,182,.18), rgba(232,67,147,.08));padding:72px 0;border-bottom:1px solid var(--ucon-border)}
+.ucon-hero__title{font-family:Orbitron,Montserrat,system-ui,-apple-system,sans-serif;font-size:clamp(28px,4vw,48px);line-height:1.15;margin:0 0 12px}
+.ucon-hero__subtitle{opacity:.9;max-width:720px;margin:0 0 24px}
+.ucon-btn{display:inline-flex;align-items:center;gap:.6rem;padding:.8rem 1.1rem;border-radius:14px;background:var(--ucon-pink);color:#fff;box-shadow:0 0 18px rgba(232,67,147,.35)}
+.ucon-btn:hover{transform:translateY(-1px)}
+
+.ucon-card{background:var(--ucon-card);border:1px solid var(--ucon-border);border-radius:16px;padding:18px}
+.ucon-card__title{margin:0 0 10px;font-weight:700}
+.ucon-card__excerpt{opacity:.9}
+
+.ucon-products{padding:48px 0}
+.ucon-products__grid{display:grid;gap:18px}
+@media(min-width:768px){.ucon-products__grid{grid-template-columns:repeat(3,1fr)}}
+.ucon-product{background:var(--ucon-card);border:1px solid var(--ucon-border);border-radius:16px;padding:20px}
+.ucon-chip{display:inline-block;padding:.3rem .6rem;border-radius:999px;background:rgba(155,89,182,.18);color:#fff;border:1px solid rgba(155,89,182,.45);font-size:.8rem}

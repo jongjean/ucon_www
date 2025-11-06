@@ -1,0 +1,10 @@
+/*
+Theme Name: Astra Child (UCON Creative)
+Template: astra
+*/
+:root {
+  --ucon-purple: #9b59b6;
+  --ucon-pink: #e84393;
+}
+body { background:#0b0b0b; color:#fff; }
+a { color:var(--ucon-pink); }
